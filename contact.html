@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+<body class="body">
+    <nav class="nav">
+        <div>
+            <img src="https://i.fbcd.co/products/resized/resized-750-500/gtp004e-13-e05-mainpreview-7b52f923f2c20c4675be81bd43e3c6b6517be916e85f69c8c2b5b436bf9e4735.jpg" alt="LOGO" class="img">
+             <span class="brand-name">TravelWithZain</span>
+        </div>
+        <ul>
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="navsearch">
+            <input type="text" id="search" placeholder="Enter your desired place">
+            <button> search </button>
+            <button> reset </button>
+        </div>
+
+    </nav>
+    <form id="form" class="form">
+        <h2  class="contact">CONTACT US</h2>
+        <input id="name"  class="input1" type="text" placeholder="Your Name" required>
+        <input id="email" class="input2" type="email" placeholder="Your Email" required>
+        <textarea id="message" class="input3" rows="5" placeholder="Your Message" required></textarea>
+        <button id="sendBT" class="sendbtn"  type="submit">Send Message</button>
+    </form>
+    <div id="confirmation" style="margin-top:20px;"></div>
+    <footer class="footer">
+    <p>&copy; 2025 Travel Recommendation. All rights reserved.</p>
+    <p>Made with ❤️ by <strong>Zain Ul Abedin</strong></p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>

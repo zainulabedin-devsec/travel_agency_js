@@ -1,0 +1,166 @@
+.body {
+  background-image: url('https://images.wallpapersden.com/image/download/live-city-4k_bWVlaWeUmZqaraWkpJRrZWVlrWllZWU.jpg');
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 100vh;                
+  margin: 0;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 10px 20px;
+  color: white;
+  height: 70px;
+}
+
+/* Navbar List */
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Navbar Links */
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Logo */
+.img {
+  height: 67px;
+  width: 135px;
+  margin-left: -20px;
+  display: block;
+}
+.brand-name {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -20px;
+}
+
+/* Search Section */
+.navsearch {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navsearch input {
+  padding: 6px 10px;
+  border-radius: 20px;
+  border-color: aliceblue;
+  width: 500px;
+  height: 30px;
+}
+
+.navsearch button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #0096c7;
+  color: white;
+  cursor: pointer;
+}
+
+.navsearch button:hover {
+  background: #023e8a;
+}
+/* navbar ends here */
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* About Boxes */
+.about-box {
+  background: black;
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+}
+
+.about-box h2 {
+  font-size: 1.8rem;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.about-box p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: white;
+}
+
+/* About Me with Image */
+.about-me {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid black;
+}
+
+.about-text {
+  flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img {
+    margin-bottom: 15px;
+  }
+}
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  border-top: 3px solid #444;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 16px;
+}
